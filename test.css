@@ -9,9 +9,7 @@ a {
     color: #FF0000;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 h3 {
     text-align: center;
@@ -35,6 +33,7 @@ h3 {
 
 
 .photo{
+    margin-top: 10%;
     text-align: center;
     -moz-transition:-moz-transform 2s;
     /* Firefox 4 */
@@ -100,4 +99,10 @@ to {background:yellow;}
     .photo {
         display: none;
     }
+}
+h1{
+    position: fixed;
+    left: 48%;
+    top:0%;
+    right:45%;
 }
